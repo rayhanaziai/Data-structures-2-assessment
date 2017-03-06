@@ -1,0 +1,45 @@
+Recursion
+
+In your own words, what is recursion?
+    Recursion occurs when a function calls itself. Any loop can be written with recursion instead. 
+
+Why is it necessary to have a base case?
+    We need a base case so that at some point we stop recursing and prevent our function from recursing forever. 
+
+Graphs
+
+What is a graph?
+A graph is like a tree but it contains loops. The relationships in the graph can be directed or non-directed. It contains nodes and edges. 
+
+How is a graph different from a tree?
+A graph contains loops whereas a tree does not. 
+
+Give an example of something that would be good to model with a graph.
+Metro stations. 
+
+
+Performance of Different Data Structures
+
+Python List (Array)             O(1)    O(n)    O(1)    O(n)    O(n)    O(1)
+Linked List                     O(n)    O(n)    O(1)    O(1)    O(1)    O(n)
+Doubly Linked List              O(n)    O(n)    O(1)    O(1)    O(1)    O(1)
+Queue (as Array)                X       X       O(1)    X       O(n)    X
+Queue (as LL or DLL)            X       X       O(1)    X       O(1)    X
+Stack (as Array, LL, or DLL)    X       X       O(1)    X       X       O(1)
+Deque (as DLL)                  X       X       O(1)    O(1)    O(1)    O(1)
+
+Dictionary (Hash Map)           O(1)        O(1)        O(1)        O(n)        medium
+Set (Hash Map)                  O(1)        O(1)        O(1)        O(n log n)  medium
+Binary Search Tree              O(log n)    O(log n)    O(log n)    O(n)        low      
+Tree                            O(n)        O(1)        O(1)        O(n)        low
+
+Sorting
+
+Describe in words how the Bubble Sort algorithm works.
+With a list as an input, the first two numbers are compared. The larger one will move to the right of the lower one (unless it is already there). Then the next second and the third numbers are compared and the same thing happens. The is continued untill the largest number has reach its appropriate place at the end of the list. The process is then started all over again until the list is fully sorted. 
+
+Describe in words how the Merge Sort algorithm works.
+The merge sort algorithm takes a list of numbers and keeps splitting the list in two until there are lists each with one number inside them. Then each pair of these is compared and sorted and then merged back together with the other lists.
+
+Describe in words how the Quick Sort algorithm works.
+This algorithm picks a 'pivot' number and reorders the list of numbers so that all smaller values come before the pivot and larger ones come after the pivot. This process then happens again in the sub-arrays (the smaller values and then the larger values)
